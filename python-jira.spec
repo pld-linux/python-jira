@@ -28,11 +28,6 @@ BuildRequires:	python3-setuptools
 %endif
 Requires:	python-ipython-console
 Requires:	python-magic
-Requires:	python-six
-Requires:	python2-requests
-Requires:	python2-requests-oauthlib
-Requires:	python2-requests-toolbelt
-Requires:	python2-tlslite
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -44,11 +39,6 @@ Summary:	%{summary}
 Group:		Libraries/Python
 Requires:	python3-ipython-console
 Requires:	python3-magic
-Requires:	python3-requests
-Requires:	python3-requests-oauthlib
-Requires:	python3-requests-toolbelt
-Requires:	python3-six
-Requires:	python3-tlslite
 
 %description -n python3-%{pypi_name}
 A library to ease use of the JIRA 5 REST APIs.
