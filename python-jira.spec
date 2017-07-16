@@ -9,7 +9,7 @@
 Summary:	A library to ease use of the JIRA 5 REST APIs
 Name:		python-%{pypi_name}
 Version:	1.0.7
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/j/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
@@ -26,7 +26,7 @@ BuildRequires:	python-setuptools
 BuildRequires:	python3-devel
 BuildRequires:	python3-setuptools
 %endif
-Requires:	python-ipython-console
+Requires:	python-ipython
 Requires:	python-magic
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -37,7 +37,7 @@ A library to ease use of the JIRA 5 REST APIs.
 %package -n python3-%{pypi_name}
 Summary:	%{summary}
 Group:		Libraries/Python
-Requires:	python3-ipython-console
+Requires:	python3-ipython
 Requires:	python3-magic
 
 %description -n python3-%{pypi_name}
