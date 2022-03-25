@@ -9,7 +9,7 @@
 Summary:	A library to ease use of the JIRA 5 REST APIs
 Name:		python-%{pypi_name}
 Version:	1.0.7
-Release:	6
+Release:	7
 License:	BSD
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/j/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
